@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kala-klub.com/sitemap.xml
+
+# Disallow sensitive areas
+Disallow: /applications/
+Disallow: /downloadables/*.log
+Disallow: /apply-success.html
+
+# Allow important pages
+Allow: /index.html
+Allow: /about.html
+Allow: /curriculum.html
+Allow: /instructors.html
+Allow: /schedule.html
+Allow: /apply.php
+Allow: /contact.php
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

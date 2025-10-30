@@ -1,0 +1,45 @@
+# PHP temporary files
+*.tmp
+*.temp
+
+# Application data (keep structure but ignore sensitive data)
+applications/submissions/*.csv
+applications/submissions/*.json
+!applications/submissions/.gitkeep
+
+# Contact form data
+contact/messages/*.csv
+contact/messages/*.json
+!contact/messages/.gitkeep
+
+# Download logs (optional - you may want to track these)
+downloadables/logs/*.log
+!downloadables/logs/.gitkeep
+
+# Environment specific files
+.env
+config.local.php
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cache files
+cache/
+tmp/
+
+# Backup files
+*.bak
+*.backup
